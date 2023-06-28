@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="/style/index.css">
+    
+
+
+</head>
+
+<body>
+
+    <!-- TODO: Include all your code for the header and home page here -->
+    <header>
+
+        <div>
+            <span class="heading1">ScriBBler</span> <br>
+            <span class="note"> Explore, Imagine, Create</span>
+        </div>
+
+        <div class="btn">
+            <button id="signup-button" class="bbt">Sign Up</button>
+            <button id="signin-button" class="bbt">Sign In</button>
+        </div>
+
+        <div id="modal" class="modal">
+            <form>
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Get Started</h2>
+                    <hr>
+                    <label for="exampleInputName" class="form-lable">Name</label><br>
+                    <input type="text" placeholder="Enter your name" id="name-input" required><br>
+
+                    <label for="exampleInputName2" class="form-lable">Username</label><br>
+                    <input type="text" placeholder="Enter your username" id="username-input" required><br>
+
+                    <label for="exampleInputPassword" class="form-lable">Password</label><br>
+                    <input type="password" placeholder="Enter your password" id="password-input" required><br>
+
+                    <label for="exampleInputPassword2" class="form-lable">Confirm Pasword</label><br>
+                    <input type="password" placeholder="Re-enter your password" id="confirm-password-input"
+                        required><br>
+
+                    <!-- <p id="error-message" class="error-message"></p> -->
+                    <button id="signup-modal-button">Sign Up</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- *********************************************************** -->
+
+        <!-- <button id="signin-button">Sign In</button> -->
+
+        <div id="signin-modal" class="modal">
+            <form>
+                <div class="modal-content2">
+                    <span class="close">&times;</span>
+                    <h2>Welcome Back!</h2>
+                    <hr>
+
+                    <label for="exampleInputName5" class="form-lable">Username</label><br>
+                    <input type="text" placeholder="Enter your username" id="username-input" required>
+                    <br>
+
+                    <label for="exampleInputPassword" class="form-lable">Password</label><br>
+                    <input type="password" placeholder="Enter your password" id="password-input" required>
+
+                    <!-- <p id="signin-error-message" class="error-message"></p> -->
+                    <br>
+                    <button id="signin-modal-button">Sign In</button>
+                    <p class="paragraph">Not a member? <a href="#" id="signup-link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+
+
+
+
+        <div class="post">
+            <button class="post-btn"> <a href="/html/postslist.html">All Posts </a></button>
+            <button class="create-button">Create Post</button>
+        </div>
+
+        <div id="createpost-modal" class="modal">
+            <form>
+            <div class="modal-content3">
+                <span class="close">&times;</span>
+                <h2>Pen Your Post</h2>
+                <hr>
+
+                <label for="exampleInputTitle" class="form-lable ">Title</label><br>
+                <input class="change1" type="text" placeholder="Enter title of your post" id="title-input"><br>
+
+                <label for="exampleInputContent" class="form-lable ">Contents</label><br>
+                <textarea class="change2" rows="19" cols="129" placeholder="Enter the contents of your post" id="content-input"></textarea>
+                <br>
+                <button id="createpost-modal-button" class="under-btn">Create</button>
+
+            </div>
+            </form>
+        </div>
+    </header>
+
+    <script src="/scripts/common.js"></script>
+    <script src="/scripts/index.js"></script>
+
+</body>
+
+</html>

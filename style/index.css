@@ -1,0 +1,68 @@
+body {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.heading1 {
+  font-family: 'Montez', cursive;
+  font-size: 40px;
+  color: blue;
+
+
+}
+
+.btn {
+  display: inline-block;
+  text-align: right;
+  right: 2%;
+  top: 3.2%;
+  position: absolute;
+}
+
+.bbt {
+  color: #fff;
+  background-color: blue;
+  font-size: 15px;
+  /* padding: 10px 20px; */
+  width: 125px;
+  height: 40px;
+}
+
+.post {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin-top: 230px;
+}
+
+.post-btn {
+  background-color: rgb(233, 192, 31);
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+  color: rgb(8, 2, 2);
+
+}
+
+.create-button {
+  background-color: rgb(233, 192, 31);
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+  color: black;
+  /* border-color: #fff; */
+
+}
+
+/* input buttn */
+
+
